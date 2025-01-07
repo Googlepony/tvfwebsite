@@ -1,5 +1,6 @@
 {
   "name": "vimalakar-foundation",
+  "homepage": "https://Googlepony.github.io/tvfwebsite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -35,3 +36,5 @@
     "vite": "^5.4.2"
   }
 }
+
+
