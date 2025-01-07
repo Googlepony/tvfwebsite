@@ -13,7 +13,7 @@ export function Footer() {
               Transforming lives through education, healthcare, and empowerment.
             </p>
           </div>
-          
+
           <div>
             <h4 className="text-[#FFD101] font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2">
@@ -24,25 +24,25 @@ export function Footer() {
               <li><Link to="/contact" className="hover:text-[#FFD101]">Contact</Link></li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="text-[#FFD101] font-bold mb-4">Contact Us</h4>
             <ul className="space-y-4">
               <li className="flex items-center space-x-2">
                 <MapPin className="h-5 w-5 text-[#FFD101]" />
-                <span>123 NGO Street, City, Country</span>
+                <span>Regn No. 87/2024 KIMS-SUNSHINE Hospitals, Room No. 524, Begumpet, Metro Pillar No. C1327, Hyderabad, Telangana 500016</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-5 w-5 text-[#FFD101]" />
-                <span>+1 234 567 890</span>
+                <span>+91 8790845599</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 text-[#FFD101]" />
-                <span>contact@vimalakar.org</span>
+                <span>contact@teamvimalakarfoundation.com</span>
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="text-[#FFD101] font-bold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
@@ -51,7 +51,7 @@ export function Footer() {
               <a href="#" className="hover:text-[#FFD101]"><Twitter /></a>
               <a href="#" className="hover:text-[#FFD101]"><Linkedin /></a>
             </div>
-            
+
             <div className="mt-8">
               <h4 className="text-[#FFD101] font-bold mb-4">Newsletter</h4>
               <form className="flex">
@@ -70,7 +70,7 @@ export function Footer() {
             </div>
           </div>
         </div>
-        
+
         <div className="mt-16 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400">
