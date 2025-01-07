@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Heart } from 'lucide-react';
+import logoImg from '../images/tvf_logo.png';
+import titleImg from '../images/tvf_title.png';
 
 const navigation = [
   { label: 'Home', href: '/' },
@@ -13,14 +14,28 @@ const navigation = [
 
 export function Header() {
   return (
-    <header className="bg-white shadow-md">
+    <header className="bg-[#FFD101] shadow-md">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <Heart className="h-8 w-8 text-[#FFD101]" />
-            <span className="text-xl font-bold">Team Vimalakar</span>
+            {/* Logo and Title Images */}
+            <img
+              className="logoimg"
+              width={45}
+              height="auto"
+              alt="TVF Logo"
+              src={logoImg}
+            />
+            <img
+              className="titleimg"
+              width={445}
+              height="auto"
+              alt="TVF Title"
+              src={titleImg}
+            />
           </Link>
           
+          {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
             {navigation.map((item) => (
               <Link

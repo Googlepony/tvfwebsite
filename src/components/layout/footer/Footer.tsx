@@ -31,15 +31,15 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-center space-x-2">
                 <MapPin className="h-5 w-5 text-[#FFD101]" />
-                <span>123 NGO Street, City, Country</span>
+                <span>Regn No. 87/2024 KIMS-SUNSHINE Hospitals, Room No. 524, Begumpet, Metro Pillar No. C1327, Hyderabad, Telangana 500016</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-5 w-5 text-[#FFD101]" />
-                <span>+1 234 567 890</span>
+                <span>+91 8790845599</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 text-[#FFD101]" />
-                <span>contact@vimalakar.org</span>
+                <span>contact@teamvimalakarfoundation.com</span>
               </li>
             </ul>
           </FooterSection>
